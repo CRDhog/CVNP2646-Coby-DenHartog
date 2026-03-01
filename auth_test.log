@@ -1,0 +1,37 @@
+2024-11-25 08:12:34 event=LOGIN status=SUCCESS user=jsmith ip=10.0.1.50 method=WEB
+2024-11-25 08:15:22 event=LOGIN status=SUCCESS user=admin ip=10.0.1.10 method=SSH
+2024-11-25 08:18:45 event=LOGIN status=SUCCESS user=alice ip=192.168.1.100 method=WEB
+2024-11-25 08:22:10 event=LOGIN status=SUCCESS user=bob ip=172.16.0.50 method=SSH
+2024-11-25 08:25:33 event=LOGIN status=SUCCESS user=charlie ip=10.0.2.75 method=WEB
+2024-11-25 08:30:12 event=LOGIN status=FAIL user=admin ip=198.51.100.45 method=SSH
+2024-11-25 08:30:15 event=LOGIN status=FAIL user=admin ip=198.51.100.45 method=SSH
+2024-11-25 08:30:18 event=LOGIN status=FAIL user=root ip=198.51.100.45 method=SSH
+2024-11-25 08:30:21 event=LOGIN status=FAIL user=admin ip=198.51.100.45 method=SSH
+2024-11-25 08:30:24 event=LOGIN status=FAIL user=admin ip=198.51.100.45 method=SSH
+2024-11-25 08:30:27 event=LOGIN status=FAIL user=administrator ip=198.51.100.45 method=SSH
+2024-11-25 08:30:30 event=LOGIN status=FAIL user=admin ip=198.51.100.45 method=SSH
+2024-11-25 08:35:10 event=LOGIN status user=admin ip=198.51.100.45 method=SSH
+2024-11-25 event=LOGIN status=FAIL user=admin ip=198.51.100.45
+2024-11-25 08:40:12 event=LOGIN status=FAIL user=root ip=203.0.113.89 method=SSH
+2024-11-25 08:40:15 event=LOGIN status=FAIL user=administrator ip=203.0.113.89 method=SSH
+2024-11-25 08:40:18 event=LOGIN status=FAIL user=admin ip=203.0.113.89 method=SSH
+2024-11-25 08:42:30 event=LOGIN status=SUCCESS user=alice ip=192.168.1.100 method=WEB
+2024-11-25 08:45:12 event=LOGIN status=FAIL user=admin ip=192.0.2.15 method=SSH
+2024-11-25 08:45:15 event=LOGIN status=FAIL user=root ip=192.0.2.15 method=SSH
+2024-11-25 08:45:18 event=LOGIN status=FAIL user=admin ip=192.0.2.15 method=SSH
+
+2024-11-25 08:50:00 event=LOGIN status=SUCCESS user=bob ip=172.16.0.50 method=SSH
+2024-11-25 08:52:00 event=LOGIN status=FAIL user=test ip=198.51.100.92 method=WEB
+2024-11-25 08:54:00 event=LOGIN status=FAIL user=admin ip=198.51.100.45 method=SSH
+2024-11-25 08:55:00 event=LOGIN status=FAIL user=admin ip=198.51.100.45 method=SSH
+2024-11-25 08:56:00 event=LOGIN status= user=admin ip=198.51.100.45 method=SSH
+event=LOGIN status=FAIL user=admin ip=198.51.100.45 method=SSH
+2024-11-25 08:58:00 event=LOGIN status=FAIL user=root ip=198.51.100.45 method=SSH
+2024-11-25 09:00:00 event=LOGIN status=FAIL user=admin ip=198.51.100.45 method=SSH
+2024-11-25 09:02:00 event=LOGIN status=FAIL user=admin ip=198.51.100.45 method=SSH
+2024-11-25 09:05:00 event=LOGIN status=SUCCESS user=carol ip=10.0.3.25 method=WEB
+2024-11-25 09:10:00 event=LOGIN status=FAIL user=admin ip=203.0.113.89 method=SSH
+2024-11-25 09:12:00 event=LOGIN status=FAIL user=test ip=192.0.2.15 method=SSH
+2024-11-25 09:15:00 event=LOGIN status=FAIL user=admin ip=198.51.100.45 method=SSH
+2024-11-25 09:18:00 event=LOGIN status=FAIL user=administrator ip=198.51.100.45 method=SSH
+2024-11-25 09:20:00 event=LOGIN status=SUCCESS user=dave ip=10.0.4.100 method=WEB
