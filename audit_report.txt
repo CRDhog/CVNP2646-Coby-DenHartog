@@ -1,0 +1,41 @@
+================================================================================
+USER ACCOUNT & PERMISSIONS AUDIT REPORT
+================================================================================
+Generated: 2024-12-01 14:30:00
+Auditor: IAM Audit System v1.0
+
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Total Users Audited: 10
+Total Role Assignments: 15
+Total Violations Found: 5
+
+VIOLATIONS BY SEVERITY
+--------------------------------------------------------------------------------
+CRITICAL     [  2] ██
+HIGH         [  1] █
+MEDIUM       [  2] ██
+LOW          [  0]
+
+VIOLATIONS BY TYPE
+--------------------------------------------------------------------------------
+stale_account                       2
+disabled_with_roles                 1
+unauthorized_admin                  1
+conflicting_roles                   1
+
+DETAILED VIOLATIONS
+================================================================================
+
+CRITICAL SEVERITY (2 issues)
+--------------------------------------------------------------------------------
+
+1. User: asmith (ID: U002)
+   Type: disabled_with_roles
+   Details: Disabled account has 2 active role(s): hr_manager, admin
+
+[... additional violations ...]
+
+================================================================================
+END OF REPORT
+================================================================================
