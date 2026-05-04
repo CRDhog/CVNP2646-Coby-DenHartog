@@ -1,0 +1,14 @@
+{
+  "apis": [
+    {
+      "name": "GitHub",
+      "url": "https://api.github.com",
+      "timeout": 5
+    },
+    {
+      "name": "JSONPlaceholder",
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "timeout": 5
+    }
+  ]
+}
